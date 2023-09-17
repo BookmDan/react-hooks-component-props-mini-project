@@ -1,4 +1,6 @@
 import logo from "../assets/logo";
+// import devLogo from "../assets/dev_logo";
+
 
 const blogData = {
   name: "Underreacted",
@@ -7,9 +9,10 @@ const blogData = {
   posts: [
     {
       id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
+      title: "Manipulating DOM events",
+      date: "September 3, 2023",
+      url: 'https://dev.to/bookmdan/manipulating-the-dom-events-3dno',
+      preview: "What is DOM manipulation?",
       minutes: 5,
     },
     {
