@@ -5,6 +5,7 @@ import About from './About';
 import Article from './Article';
 import ArticleList from './ArticleList';
 import logo from '../assets/logo'
+// import Blogs from '/.Blogs';
 
 // console.log(blogData);
 const posts = blogData.posts
@@ -18,7 +19,8 @@ function App() {
       <Header  />
       <About image={logo} about="Blog posts created for Phases @Flatiron Coding Bootcamp" />
       <ArticleList posts={ posts} />
-      <Article/>
+      <Article />
+      {/* <Blogs />  */}
     </div>
   );
 }

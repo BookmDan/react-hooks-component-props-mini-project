@@ -9,9 +9,9 @@ const Article = ({ title, date, preview, url }) => {
   return (
     <article>
       <h3 >
-        {/* <a href={url} target="_blank" rel='noopener noreferrer'> */}
+        <a href={url} target="_blank" rel='noopener noreferrer'>
          {title} 
-        {/* </a> */}
+        </a>
       </h3>
       <small>{date || 'January 1, 1970'}</small>
       <p>{preview} </p>
